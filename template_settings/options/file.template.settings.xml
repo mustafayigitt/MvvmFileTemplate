@@ -1,0 +1,21 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <includes_templates>
+      <template name="File Header.java" reformat="true" live-template-enabled="true" enabled="true" />
+    </includes_templates>
+    <default_templates>
+      <template name="MVVM Module.kt" file-name="${MODULE_NAME.toLowerCase()}/${MODULE_NAME}Fragment" reformat="true" live-template-enabled="true">
+        <template name="MVVM Module.kt.child.0.kt" file-name="${MODULE_NAME.toLowerCase()}/${MODULE_NAME}Service" reformat="true" live-template-enabled="false" />
+        <template name="MVVM Module.kt.child.1.kt" file-name="${MODULE_NAME.toLowerCase()}/model/${MODULE_NAME}Model" reformat="true" live-template-enabled="false" />
+        <template name="MVVM Module.kt.child.2.kt" file-name="${MODULE_NAME.toLowerCase()}/${MODULE_NAME}Repository" reformat="true" live-template-enabled="false" />
+        <template name="MVVM Module.kt.child.3.xml" file-name="/../../../../../res/layout/fragment_${MODULE_NAME.toLowerCase()}" reformat="true" live-template-enabled="false" />
+        <template name="MVVM Module.kt.child.4.kt" file-name="${MODULE_NAME.toLowerCase()}/${MODULE_NAME}ViewModel" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="MVVM Module.kt.child.0.kt" file-name="${MODULE_NAME.toLowerCase()}/${MODULE_NAME}Service" reformat="true" live-template-enabled="false" />
+      <template name="MVVM Module.kt.child.1.kt" file-name="${MODULE_NAME.toLowerCase()}/model/${MODULE_NAME}Model" reformat="true" live-template-enabled="false" />
+      <template name="MVVM Module.kt.child.2.kt" file-name="${MODULE_NAME.toLowerCase()}/${MODULE_NAME}Repository" reformat="true" live-template-enabled="false" />
+      <template name="MVVM Module.kt.child.3.xml" file-name="/../../../../../res/layout/fragment_${MODULE_NAME.toLowerCase()}" reformat="true" live-template-enabled="false" />
+      <template name="MVVM Module.kt.child.4.kt" file-name="${MODULE_NAME.toLowerCase()}/${MODULE_NAME}ViewModel" reformat="true" live-template-enabled="false" />
+    </default_templates>
+  </component>
+</application>
